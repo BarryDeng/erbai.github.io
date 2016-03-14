@@ -1,0 +1,36 @@
+body {
+	background: #E1B5B5;
+}
+img {
+	width: 400px;
+}
+header {
+	background-color: #934D4D;
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+
+}
+header img {
+	width: 200px;
+	margin: 0 0 0 20px;
+}
+header ul {
+	display: inline-block;
+	float: right;
+}
+header li {
+	float: left;
+	margin: 0 20px;
+
+}
+.card {
+	
+	border-style: ridge;
+	background: #F1DFDF;
+	margin: 20px 10px 20px 10px;
+}
+h3, h5 {
+	color: #B1B1B1;
+}
