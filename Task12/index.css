@@ -1,0 +1,31 @@
+*{
+	margin:	0;
+	padding: 0;
+}
+
+.table-mark td{
+	color:red;
+}
+
+.table-rank th{
+	background-color:#000;
+	color:#fff;
+	text-align:left;
+}
+.table-rank tr:nth-child( 2n+1 ){
+	background-color:#cccccc;
+}
+
+input
+{
+	margin-top: 50px;
+	width:100px;	
+	height:20px;
+	transition:width 1s;
+	outline: none;
+}
+
+input:hover
+{
+	width:300px;
+}
